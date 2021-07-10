@@ -122,15 +122,15 @@ function begin() { // main body ///////////////////main body ///////////////////
 
     for(let i = 0; i < ImgObj.allImg.length; i++ ) {
       switch(ImgObj.allImg[i].path) {
-      case pos1.src.split('/')[4]:
+      case pos1.src.split('/')[5]:
         ImgObj.allImg[i].shown++;
         if (iteration == limit - 1) ImgObj.allImg[i].shown--;
         break;
-      case pos2.src.split('/')[4]:
+      case pos2.src.split('/')[5]:
         ImgObj.allImg[i].shown++;
         if (iteration == limit -1 ) ImgObj.allImg[i].shown--;
         break;
-      case pos3.src.split('/')[4]:
+      case pos3.src.split('/')[5]:
         ImgObj.allImg[i].shown++;
         if (iteration == limit -1) ImgObj.allImg[i].shown--;
         break;
